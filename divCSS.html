@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Class and Id </title>
+		<style>
+		body{
+			/*url(),rgb(), hsl() -> inbuilt function */
+			background-image: url("images/draft.jpg");
+			background-repeat:no-repeat;/*rapeat-x, repeat-y */ 
+			background-position: 400px 30px; /*left top*/
+			}
+		.standout {font-family:cursive;color:red;}
+		.special {background-color:yellow; font-weight:bold;}	
+		a:link{color:pink;}
+		a:visited{color:lightblue;}	
+		a:hover{color:red;}
+		a:active{color:blue;}
+		ol { list-style-type: lower-roman; }
+			</style> 
+</head>
+<body>
+<!-- div is used to logically devide your page -->
+<!-- make rows and cpl -->
+<!-- div - block level, span is inline -->
+	<div class="standout">
+	<p> para1 <span Class="special">special text</span></p>
+	<p> para2 </p>
+	<h1> Heading </h1>
+</div>
+
+<div class="special">
+	<p> para3 <span Class="standout">standout text</span></p>
+	<p> para4 </p>
+	<a href="http://naver.com"> Naver
+</div></a>
+<ol>
+	<li>item1</li>
+	<li>item2</li>
+</ol>
+
+</body>
+</html>
